@@ -1,0 +1,15 @@
+{
+  "name": "templatev13",
+  "version": "1.0.1",
+  "description": "Build  by Didnt_",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Didnt_",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "discord.js": "^13.5.0"
+  }
+}
