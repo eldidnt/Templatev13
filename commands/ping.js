@@ -4,11 +4,11 @@ const { Client, Message } = require("discord.js");
  * @param {Message} message
  */
 module.exports.run = (client, message, args) => {
-    let d1 = new Date().getTime()
+    let p1 = new Date().getTime()
 
     message.reply('Pong!').then(msg =>{
-        let d2 = message.createdTimestamp
-        msg.edit(d2-d1+" ms  \n`API`  "+Math.round(client.ws.ping)+" ms")
+        let p2 = message.createdTimestamp
+        msg.edit(p2-p1+" ms  \n`API`  "+Math.round(client.ws.ping)+" ms")
     })
 }
 module.exports.conf = {
