@@ -19,5 +19,5 @@
 module.exports = {
 token: "",
 prefix: "!",
-timeout: 5,
+timeout: 5,//for timeout commands
 }
